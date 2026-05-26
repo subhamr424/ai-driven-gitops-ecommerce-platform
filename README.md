@@ -1,25 +1,29 @@
 # AI-Driven GitOps Ecommerce Deployment Platform
 
-Production-grade GitOps CI/CD ecommerce deployment platform built using Kubernetes, Docker, Helm, ArgoCD, and GitHub Actions.
+Production-grade cloud-native ecommerce deployment platform built using Kubernetes, Docker, Helm, ArgoCD, and GitHub Actions with fully automated GitOps CI/CD workflows.
 
-## 🚀 Features
+---
+
+# 🚀 Features
 
 - Automated CI/CD pipeline using GitHub Actions
 - GitOps deployment workflow with ArgoCD
-- Automatic Docker image versioning (v1 → v2 → v3...)
+- Automatic Docker image versioning (`v1 → v2 → v3`)
 - Kubernetes rolling deployments
 - Helm-based application deployment
 - FastAPI backend with JWT authentication
 - Frontend + Backend containerized deployment
 - Horizontal Pod Autoscaler (HPA)
 - Persistent Volumes (PV/PVC)
-- Kubernetes Ingress
+- Kubernetes Ingress routing
 - Network Policies
 - Automated DockerHub image publishing
+- Self-healing Kubernetes deployments
+- End-to-end automated deployment after every Git push
 
 ---
 
-## 🛠 Tech Stack
+# 🛠 Tech Stack
 
 - Kubernetes
 - Docker
@@ -35,7 +39,7 @@ Production-grade GitOps CI/CD ecommerce deployment platform built using Kubernet
 
 ---
 
-## ⚙️ CI/CD Workflow
+# ⚙️ CI/CD GitOps Workflow
 
 ```text
 Developer Pushes Code
